@@ -8,5 +8,10 @@ namespace URI.Iniciante.Exercicio1012
 {
     class Quadrado
     {
+        public double Lado { get; set; }
+        public double Area
+        {
+            get { return Lado * Lado; }
+        }
     }
 }

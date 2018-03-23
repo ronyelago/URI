@@ -8,5 +8,14 @@ namespace URI.Iniciante.Exercicio1012
 {
     class Retangulo
     {
+        public double LadoA { get; set; }
+        public double LadoB { get; set; }
+        public double Area
+        {
+            get
+            {
+                return LadoA * LadoB;
+            }
+        }
     }
 }
