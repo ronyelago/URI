@@ -1,0 +1,6 @@
+C:\WorkSpace\URI\URI\bin\Debug\URI.exe.config
+C:\WorkSpace\URI\URI\bin\Debug\URI.exe
+C:\WorkSpace\URI\URI\bin\Debug\URI.pdb
+C:\WorkSpace\URI\URI\obj\Debug\URI.csprojResolveAssemblyReference.cache
+C:\WorkSpace\URI\URI\obj\Debug\URI.exe
+C:\WorkSpace\URI\URI\obj\Debug\URI.pdb
