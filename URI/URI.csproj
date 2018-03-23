@@ -52,6 +52,8 @@
     <Compile Include="Iniciante\Exercicio1007.cs" />
     <Compile Include="Iniciante\Exercicio1008.cs" />
     <Compile Include="Iniciante\Exercicio1009.cs" />
+    <Compile Include="Iniciante\Exercicio1010\CalculoSimples.cs" />
+    <Compile Include="Iniciante\Exercicio1010\Venda.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

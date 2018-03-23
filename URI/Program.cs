@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using URI.Iniciante;
+using URI.Iniciante.Exercicio1010;
 
 namespace URI
 {
@@ -11,19 +7,19 @@ namespace URI
     {
         static void Main(string[] args)
         {
-            Console.Write("Nome do Vendedor: ");
-            string nome = Console.ReadLine();
+            Venda v1 = new Venda { Codigo = 123, Preco = 5.30 };
+            Venda v2 = new Venda { Codigo = 456, Preco = 5.10 };
 
-            Console.Write("Salário do Vendedor: ");
-            double salario = double.Parse(Console.ReadLine());
+            Console.Write("Quantidade do produto 1: ");
+            v1.Quantidade = int.Parse(Console.ReadLine());
 
-            Console.Write("Quantidade de vendas efetuadas: ");
-            double vendas = double.Parse(Console.ReadLine());
+            Console.Write("Quantidade do produto 2: ");
+            v2.Quantidade = int.Parse(Console.ReadLine());
 
-            double liquido = Exercicio1009.SalarioBonus(salario, vendas);
+            double total = CalculoSimples.Calcular(v1) + CalculoSimples.Calcular(v2);
 
-            Console.WriteLine("Salário Liquido = R${0}\n\n", liquido);
-            Console.ReadLine();
+            Console.WriteLine("Total da Compra : {0}\n\n", total);
+            Console.ReadKey();
         }
     }
 }
