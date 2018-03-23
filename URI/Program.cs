@@ -1,5 +1,7 @@
 ﻿using System;
-using URI.Iniciante.Exercicio1010;
+using URI.Exercicio1011;
+using URI.Iniciante;
+using URI.Iniciante.Exercicio1012;
 
 namespace URI
 {
@@ -7,19 +9,32 @@ namespace URI
     {
         static void Main(string[] args)
         {
-            Venda v1 = new Venda { Codigo = 123, Preco = 5.30 };
-            Venda v2 = new Venda { Codigo = 456, Preco = 5.10 };
+            //Escreva um programa que leia três valores com ponto 
+            //flutuante de dupla precisão: A, B e C.Em seguida, calcule e mostre: 
 
-            Console.Write("Quantidade do produto 1: ");
-            v1.Quantidade = int.Parse(Console.ReadLine());
+            //a) a área do triângulo retângulo que tem A por base e C por altura.
+            //b) a área do círculo de raio C. (pi = 3.14159)
+            //c) a área do trapézio que tem A e B por bases e C por altura.
+            //d) a área do quadrado que tem lado B.
+            //e) a área do retângulo que tem lados A e B.
 
-            Console.Write("Quantidade do produto 2: ");
-            v2.Quantidade = int.Parse(Console.ReadLine());
+            //Entrada
 
-            double total = CalculoSimples.Calcular(v1) + CalculoSimples.Calcular(v2);
+            //O arquivo de entrada contém três valores com um dígito após o ponto decimal.
 
-            Console.WriteLine("Total da Compra : {0}\n\n", total);
+            //Saída
+            //O arquivo de saída deverá conter 5 linhas de dados.Cada linha corresponde 
+            //a uma das áreas descritas acima, sempre com mensagem correspondente e 
+            //um espaço entre os dois pontos e o valor.O valor calculado deve 
+            //ser apresentado com 3 dígitos após o ponto decimal.
+
+            Trapezio t = new Trapezio { BaseMaior = 3, BaseMenor = 4, Altura = 5.2 };
+
+            Console.WriteLine("Dados do Trapézio: ");
+            Console.WriteLine("Base Maior: {0}, Base Menor: {1} Altura: {2}, Área: {3}\n\n", t.BaseMaior, t.BaseMaior, t.Altura, t.Area);
             Console.ReadKey();
+
+
         }
     }
 }

@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Iniciante\Exercicio1011\Esfera.cs" />
+    <Compile Include="Iniciante\Exercicio1011\VolumeEsfera.cs" />
     <Compile Include="Iniciante\Exercicio1001.cs" />
     <Compile Include="Iniciante\Exercicio1002.cs" />
     <Compile Include="Iniciante\Exercicio1003.cs" />
@@ -54,6 +56,11 @@
     <Compile Include="Iniciante\Exercicio1009.cs" />
     <Compile Include="Iniciante\Exercicio1010\CalculoSimples.cs" />
     <Compile Include="Iniciante\Exercicio1010\Venda.cs" />
+    <Compile Include="Iniciante\Exercicio1012\Circulo.cs" />
+    <Compile Include="Iniciante\Exercicio1012\Quadrado.cs" />
+    <Compile Include="Iniciante\Exercicio1012\Retangulo.cs" />
+    <Compile Include="Iniciante\Exercicio1012\Trapezio.cs" />
+    <Compile Include="Iniciante\Exercicio1012\TrianguloRetangulo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

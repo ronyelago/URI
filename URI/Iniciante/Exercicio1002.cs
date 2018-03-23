@@ -10,7 +10,7 @@ namespace URI.Iniciante
     {
         public static void AreaCirculo(double raio)
         {
-            double area = 3.14159 * (raio * raio);
+            double area = Math.PI * (raio * raio);
 
             Console.WriteLine("A = {0}\n\n", area);
         }
