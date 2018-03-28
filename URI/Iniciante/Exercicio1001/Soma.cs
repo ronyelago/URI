@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace URI.Iniciante
+namespace URI.Iniciante.Exercicio1001
 {
-    public class Exercicio1004
+    public class Soma
     {
-        public static void Produto()
+        public static void SomaSimples()
         {
             Console.Write("Digite o valor de A: ");
             int a = int.Parse(Console.ReadLine());
@@ -16,9 +16,9 @@ namespace URI.Iniciante
             Console.Write("Digite o valor de B: ");
             int b = int.Parse(Console.ReadLine());
 
-            int prod = a * b;
+            int x = a + b;
 
-            Console.Write("Prod = {0}\n\n", prod);
+            Console.WriteLine("X = {0}\n", x);
         }
     }
 }

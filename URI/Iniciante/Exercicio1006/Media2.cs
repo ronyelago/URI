@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace URI.Iniciante
+namespace URI.Iniciante.Exercicio1006
 {
-    public class Exercicio1006
+    public class Media2
     {
         public static void MediaPonderada()
         {

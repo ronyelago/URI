@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace URI.Iniciante
+namespace URI.Iniciante.Exercicio1007
 {
-    public class Exercicio1007
+    public class Diferenca
     {
-        public static int Diferenca(int a, int b, int c, int d)
+        public static int DiferencaSimples(int a, int b, int c, int d)
         {
             return a * b - c * d;
         }

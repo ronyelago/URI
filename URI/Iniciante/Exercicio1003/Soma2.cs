@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace URI.Iniciante
+namespace URI.Iniciante.Exercicio1003
 {
-    public class Exercicio1003
+    public class Soma2
     {
         public static int SomaSimples(int a, int b)
         {

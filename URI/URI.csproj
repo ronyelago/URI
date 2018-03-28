@@ -45,15 +45,15 @@
   <ItemGroup>
     <Compile Include="Iniciante\Exercicio1011\Esfera.cs" />
     <Compile Include="Iniciante\Exercicio1011\VolumeEsfera.cs" />
-    <Compile Include="Iniciante\Exercicio1001.cs" />
-    <Compile Include="Iniciante\Exercicio1002.cs" />
-    <Compile Include="Iniciante\Exercicio1003.cs" />
-    <Compile Include="Iniciante\Exercicio1004.cs" />
-    <Compile Include="Iniciante\Exercicio1005.cs" />
-    <Compile Include="Iniciante\Exercicio1006.cs" />
-    <Compile Include="Iniciante\Exercicio1007.cs" />
-    <Compile Include="Iniciante\Exercicio1008.cs" />
-    <Compile Include="Iniciante\Exercicio1009.cs" />
+    <Compile Include="Iniciante\Exercicio1001\Soma.cs" />
+    <Compile Include="Iniciante\Exercicio1002\Area.cs" />
+    <Compile Include="Iniciante\Exercicio1003\Soma2.cs" />
+    <Compile Include="Iniciante\Exercicio1004\Produto.cs" />
+    <Compile Include="Iniciante\Exercicio1005\Media.cs" />
+    <Compile Include="Iniciante\Exercicio1006\Media2.cs" />
+    <Compile Include="Iniciante\Exercicio1007\Diferenca.cs" />
+    <Compile Include="Iniciante\Exercicio1008\Salario.cs" />
+    <Compile Include="Iniciante\Exercicio1009\SalarioBonus.cs" />
     <Compile Include="Iniciante\Exercicio1010\CalculoSimples.cs" />
     <Compile Include="Iniciante\Exercicio1010\Venda.cs" />
     <Compile Include="Iniciante\Exercicio1012\Circulo.cs" />
@@ -61,12 +61,15 @@
     <Compile Include="Iniciante\Exercicio1012\Retangulo.cs" />
     <Compile Include="Iniciante\Exercicio1012\Trapezio.cs" />
     <Compile Include="Iniciante\Exercicio1012\TrianguloRetangulo.cs" />
+    <Compile Include="Iniciante\Exercicio1013\Maior.cs" />
+    <Compile Include="Iniciante\Exercicio1014\Consumo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
