@@ -63,6 +63,10 @@
     <Compile Include="Iniciante\Exercicio1012\TrianguloRetangulo.cs" />
     <Compile Include="Iniciante\Exercicio1013\Maior.cs" />
     <Compile Include="Iniciante\Exercicio1014\Consumo.cs" />
+    <Compile Include="Iniciante\Exercicio1015\Distancia.cs" />
+    <Compile Include="Iniciante\Exercicio1016\Tempo.cs" />
+    <Compile Include="Iniciante\Exercicio1017\Consumo2.cs" />
+    <Compile Include="Iniciante\Exercicio1018\Cedulas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,5 +1,5 @@
 ﻿using System;
-using URI.Iniciante.Exercicio1014;
+using URI.Iniciante.Exercicio1017;
 
 namespace URI
 {
@@ -7,7 +7,9 @@ namespace URI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Consumo médio: {0} km/l", Consumo.ConsumoMedio(500, 35));
+
+
+            Console.WriteLine("Consumo : {0} \n\n", Consumo2.CalculaConsumo(10, 85));
             Console.ReadKey();
         }
     }
